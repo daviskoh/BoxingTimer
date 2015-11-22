@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  SetterView.h
 //  BoxingTimer
 //
-//  Created by Davis Koh on 11/21/15.
+//  Created by Davis Koh on 11/22/15.
 //  Copyright © 2015 com.DavisKoh. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SetterView : UIView
 
 @end
-
