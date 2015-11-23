@@ -16,6 +16,7 @@
 		DD0D81AF1C01741E00A1A755 /* BoxingTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D81AE1C01741E00A1A755 /* BoxingTimerUITests.m */; };
 		DD7B52461C027BEC004536E9 /* SetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7B52451C027BEC004536E9 /* SetterView.m */; };
 		DD7B52491C027DF4004536E9 /* SetterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7B52481C027DF4004536E9 /* SetterViewController.m */; };
+		DDEBAEA31C036AB0008E4360 /* RoundsCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEBAEA21C036AB0008E4360 /* RoundsCountView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		DD7B52451C027BEC004536E9 /* SetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetterView.m; sourceTree = "<group>"; };
 		DD7B52471C027DF4004536E9 /* SetterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetterViewController.h; sourceTree = "<group>"; };
 		DD7B52481C027DF4004536E9 /* SetterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetterViewController.m; sourceTree = "<group>"; };
+		DDEBAEA11C036AB0008E4360 /* RoundsCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsCountView.h; sourceTree = "<group>"; };
+		DDEBAEA21C036AB0008E4360 /* RoundsCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsCountView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		DD0D81881C01741D00A1A755 /* BoxingTimer */ = {
 			isa = PBXGroup;
 			children = (
+				DDEBAEA11C036AB0008E4360 /* RoundsCountView.h */,
+				DDEBAEA21C036AB0008E4360 /* RoundsCountView.m */,
 				DD7B52441C027BEC004536E9 /* SetterView.h */,
 				DD7B52451C027BEC004536E9 /* SetterView.m */,
 				DD7B52471C027DF4004536E9 /* SetterViewController.h */,
@@ -279,6 +284,7 @@
 				DD0D818B1C01741D00A1A755 /* main.m in Sources */,
 				DD7B52461C027BEC004536E9 /* SetterView.m in Sources */,
 				DD7B52491C027DF4004536E9 /* SetterViewController.m in Sources */,
+				DDEBAEA31C036AB0008E4360 /* RoundsCountView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

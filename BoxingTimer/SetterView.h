@@ -10,4 +10,6 @@
 
 @interface SetterView : UIView
 
+@property UIView *roundsCountView;
+
 @end
