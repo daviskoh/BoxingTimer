@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD0D818B1C01741D00A1A755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D818A1C01741D00A1A755 /* main.m */; };
 		DD0D818E1C01741D00A1A755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D818D1C01741D00A1A755 /* AppDelegate.m */; };
-		DD0D81941C01741D00A1A755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D81921C01741D00A1A755 /* Main.storyboard */; };
 		DD0D81961C01741D00A1A755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0D81951C01741D00A1A755 /* Assets.xcassets */; };
-		DD0D81991C01741D00A1A755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D81971C01741D00A1A755 /* LaunchScreen.storyboard */; };
 		DD0D81A41C01741E00A1A755 /* BoxingTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D81A31C01741E00A1A755 /* BoxingTimerTests.m */; };
 		DD0D81AF1C01741E00A1A755 /* BoxingTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D81AE1C01741E00A1A755 /* BoxingTimerUITests.m */; };
 		DD7B52461C027BEC004536E9 /* SetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7B52451C027BEC004536E9 /* SetterView.m */; };
@@ -42,9 +40,7 @@
 		DD0D818A1C01741D00A1A755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD0D818C1C01741D00A1A755 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD0D818D1C01741D00A1A755 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD0D81931C01741D00A1A755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD0D81951C01741D00A1A755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD0D81981C01741D00A1A755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0D819A1C01741D00A1A755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD0D819F1C01741E00A1A755 /* BoxingTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxingTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D81A31C01741E00A1A755 /* BoxingTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxingTimerTests.m; sourceTree = "<group>"; };
@@ -120,9 +116,7 @@
 				DD7B52481C027DF4004536E9 /* SetterViewController.m */,
 				DD0D818C1C01741D00A1A755 /* AppDelegate.h */,
 				DD0D818D1C01741D00A1A755 /* AppDelegate.m */,
-				DD0D81921C01741D00A1A755 /* Main.storyboard */,
 				DD0D81951C01741D00A1A755 /* Assets.xcassets */,
-				DD0D81971C01741D00A1A755 /* LaunchScreen.storyboard */,
 				DD0D819A1C01741D00A1A755 /* Info.plist */,
 				DD0D81891C01741D00A1A755 /* Supporting Files */,
 			);
@@ -258,9 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0D81991C01741D00A1A755 /* LaunchScreen.storyboard in Resources */,
 				DD0D81961C01741D00A1A755 /* Assets.xcassets in Resources */,
-				DD0D81941C01741D00A1A755 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,25 +316,6 @@
 			targetProxy = DD0D81AB1C01741E00A1A755 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DD0D81921C01741D00A1A755 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD0D81931C01741D00A1A755 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD0D81971C01741D00A1A755 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD0D81981C01741D00A1A755 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD0D81B11C01741E00A1A755 /* Debug */ = {
