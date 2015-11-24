@@ -7,6 +7,7 @@
 //
 
 #import "RoundsCountView.h"
+#import "Label.h"
 
 @implementation RoundsCountView
 
@@ -27,10 +28,7 @@
 }
 
 - (void)setupLabel {
-    self.label = [[UILabel alloc] init];
-    [self.label setTranslatesAutoresizingMaskIntoConstraints:NO];
-    self.label.text = @"Rounds";
-    self.label.textAlignment = NSTextAlignmentCenter;
+    self.label = [[Label alloc] initWithText:@"Rounds"];
     [self addSubview:self.label];
 
     NSLayoutConstraint *widthConstraint = [NSLayoutConstraint constraintWithItem:self.label
