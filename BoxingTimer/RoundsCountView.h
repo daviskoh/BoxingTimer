@@ -10,4 +10,6 @@
 
 @interface RoundsCountView : UIView
 
+@property UILabel *label;
+
 @end
