@@ -10,6 +10,7 @@
 
 @interface RoundsCountView : UIView
 
-@property UILabel *label;
+@property UILabel *titleLabel;
+@property UILabel *quantityLabel;
 
 @end

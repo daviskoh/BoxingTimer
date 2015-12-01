@@ -28,10 +28,10 @@
 }
 
 - (void)setupLabel {
-    self.label = [[Label alloc] initWithText:@"Rounds"];
-    [self addSubview:self.label];
+    self.titleLabel = [[Label alloc] initWithText:@"Rounds"];
+    [self addSubview:self.titleLabel];
 
-    NSLayoutConstraint *widthConstraint = [NSLayoutConstraint constraintWithItem:self.label
+    NSLayoutConstraint *titleWidthConstraint = [NSLayoutConstraint constraintWithItem:self.titleLabel
                                                                        attribute:NSLayoutAttributeWidth
                                                                        relatedBy:NSLayoutRelationEqual
                                                                           toItem:self
@@ -39,7 +39,7 @@
                                                                       multiplier:0.8
                                                                         constant:0];
 
-    NSLayoutConstraint *heightConstraint = [NSLayoutConstraint constraintWithItem:self.label
+    NSLayoutConstraint *titleHeightConstraint = [NSLayoutConstraint constraintWithItem:self.titleLabel
                                                                        attribute:NSLayoutAttributeHeight
                                                                        relatedBy:NSLayoutRelationEqual
                                                                           toItem:self
@@ -47,7 +47,7 @@
                                                                       multiplier:0.2
                                                                         constant:0];
 
-    NSLayoutConstraint *xConstraint = [NSLayoutConstraint constraintWithItem:self.label
+    NSLayoutConstraint *titleXConstraint = [NSLayoutConstraint constraintWithItem:self.titleLabel
                                                                        attribute:NSLayoutAttributeCenterX
                                                                        relatedBy:NSLayoutRelationEqual
                                                                           toItem:self
@@ -55,7 +55,7 @@
                                                                       multiplier:1.0
                                                                         constant:0];
 
-    NSLayoutConstraint *yConstraint = [NSLayoutConstraint constraintWithItem:self.label
+    NSLayoutConstraint *titleYConstraint = [NSLayoutConstraint constraintWithItem:self.titleLabel
                                                                        attribute:NSLayoutAttributeCenterY
                                                                        relatedBy:NSLayoutRelationEqual
                                                                           toItem:self
@@ -63,7 +63,44 @@
                                                                       multiplier:0.4
                                                                         constant:0];
     
-    [self addConstraints:@[widthConstraint, heightConstraint, xConstraint, yConstraint]];
+    [self addConstraints:@[titleWidthConstraint, titleHeightConstraint, titleXConstraint, titleYConstraint]];
+
+    self.quantityLabel = [[Label alloc] initWithText:@"06"];
+    [self addSubview:self.quantityLabel];
+
+    NSLayoutConstraint *quantityWidthConstraint = [NSLayoutConstraint constraintWithItem:self.quantityLabel
+                                                                       attribute:NSLayoutAttributeWidth
+                                                                       relatedBy:NSLayoutRelationEqual
+                                                                          toItem:self
+                                                                       attribute:NSLayoutAttributeWidth
+                                                                      multiplier:0.8
+                                                                        constant:0];
+
+    NSLayoutConstraint *quantityHeightConstraint = [NSLayoutConstraint constraintWithItem:self.quantityLabel
+                                                                       attribute:NSLayoutAttributeHeight
+                                                                       relatedBy:NSLayoutRelationEqual
+                                                                          toItem:self
+                                                                       attribute:NSLayoutAttributeHeight
+                                                                      multiplier:0.6
+                                                                        constant:0];
+
+    NSLayoutConstraint *quantityXConstraint = [NSLayoutConstraint constraintWithItem:self.quantityLabel
+                                                                       attribute:NSLayoutAttributeCenterX
+                                                                       relatedBy:NSLayoutRelationEqual
+                                                                          toItem:self
+                                                                       attribute:NSLayoutAttributeCenterX
+                                                                      multiplier:1.0
+                                                                        constant:0];
+
+    NSLayoutConstraint *quantityYConstraint = [NSLayoutConstraint constraintWithItem:self.quantityLabel
+                                                                       attribute:NSLayoutAttributeCenterY
+                                                                       relatedBy:NSLayoutRelationEqual
+                                                                          toItem:self
+                                                                       attribute:NSLayoutAttributeCenterY
+                                                                      multiplier:1
+                                                                        constant:0];
+    
+    [self addConstraints:@[quantityWidthConstraint, quantityHeightConstraint, quantityXConstraint, quantityYConstraint]];
 }
 
 @end
