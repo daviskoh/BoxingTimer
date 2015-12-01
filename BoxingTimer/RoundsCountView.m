@@ -29,6 +29,8 @@
 
 - (void)setupLabel {
     self.titleLabel = [[Label alloc] initWithText:@"Rounds"];
+    self.titleLabel.font = [UIFont systemFontOfSize:25];
+    self.titleLabel.adjustsFontSizeToFitWidth = YES;
     [self addSubview:self.titleLabel];
 
     NSLayoutConstraint *titleWidthConstraint = [NSLayoutConstraint constraintWithItem:self.titleLabel
@@ -37,7 +39,7 @@
                                                                           toItem:self
                                                                        attribute:NSLayoutAttributeWidth
                                                                       multiplier:0.8
-                                                                        constant:0];
+                                                                        constant:10];
 
     NSLayoutConstraint *titleHeightConstraint = [NSLayoutConstraint constraintWithItem:self.titleLabel
                                                                        attribute:NSLayoutAttributeHeight
@@ -66,6 +68,8 @@
     [self addConstraints:@[titleWidthConstraint, titleHeightConstraint, titleXConstraint, titleYConstraint]];
 
     self.quantityLabel = [[Label alloc] initWithText:@"06"];
+    self.quantityLabel.font = [UIFont systemFontOfSize:50];
+    self.quantityLabel.adjustsFontSizeToFitWidth = YES;
     [self addSubview:self.quantityLabel];
 
     NSLayoutConstraint *quantityWidthConstraint = [NSLayoutConstraint constraintWithItem:self.quantityLabel
