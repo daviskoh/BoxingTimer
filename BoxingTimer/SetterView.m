@@ -40,9 +40,18 @@
                                                                        multiplier:0.3
                                                                          constant:0];
 
+    NSLayoutConstraint *yConstraint = [NSLayoutConstraint constraintWithItem:self.roundsCountView
+                                                                        attribute:NSLayoutAttributeTopMargin
+                                                                        relatedBy:NSLayoutRelationEqual
+                                                                           toItem:self
+                                                                        attribute:NSLayoutAttributeTopMargin
+                                                                       multiplier:1
+                                                                         constant:30];
+
     [self addConstraints:@[
                            widthConstraint,
-                           heightConstraint
+                           heightConstraint,
+                           yConstraint
                            ]];
 }
 
